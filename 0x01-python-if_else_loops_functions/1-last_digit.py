@@ -9,12 +9,12 @@ l_digit = conv_string[-1]
 if number < 0:
     l_digit = "-" + l_digit
 #let's first print the random number and the extracted last digit
-print(f"Last digit of {number} is {l_digit} and", end=" ")
+print(f"Last digit of {number} is {l_digit}", end=" ")
 
 #Next lines would say the more about the extracted last digit
 if int(l_digit) > 5:
-    print(f"is greater than 5")
+    print(f"and is greater than 5")
 elif int (l_digit) == 0:
-    print(f"is 0")
+    print(f"and is 0")
 else:
-    print(f"is less than 6 and not 0")
+    print(f"and is less than 6 and not 0")
