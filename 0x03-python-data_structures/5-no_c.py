@@ -4,4 +4,4 @@ def no_c(my_string):
     for x in my_string:
         if x.lower() not in ['c', 'C']:
             new_S += x
-    return new_S          
+    return new_S
