@@ -8,3 +8,4 @@ def only_diff_elements(set_1, set_2):
     for e in set_2:
         if e not in set_1:
             odd.add(e)
+    return odd
