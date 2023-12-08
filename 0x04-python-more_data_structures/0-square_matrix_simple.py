@@ -4,6 +4,6 @@ def square_matrix_simple(matrix=[]):
     for lists in matrix:
         new_list = []
         for x in lists:
-            new_list.append(x** 2)
+            new_list.append(x ** 2)
         new_matrix.append(new_list)
     return new_matrix
