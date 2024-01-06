@@ -10,9 +10,12 @@ def list_division(my_list_1, my_list_2, list_length):
             div = my_list_1[x] / my_list_2[x]
         except (ValueError, ZeroDivisionError):
             print("division by 0")
-            div = 0
+            div = 0     # setting division result to 0
         except (TypeError):
             print("Wrong Type")
+            div = 0
+        except (IndexError):
+            print("out of range")
             div = 0
 
         finally:
