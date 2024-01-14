@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 
 """
-
-Creat class Square that define a square by
-Private Instance attribute:size
+Create class Square that define a square by Private
+Instance attribute:size
 """
 
 
 class Square:
-
+    
+    
     """
-
+    
     Instantiation the variable self and size.
     Raising error if conditions are not met.
     """
