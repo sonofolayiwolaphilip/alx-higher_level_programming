@@ -6,7 +6,7 @@ private instance attribute: size
 and a Public instance method that returns
 the current square area
 Methods Getter and Setter properties for size.
-property def size(self): to retrieve property 
+property def size(self): to retrieve property
 """
 
 
@@ -18,13 +18,13 @@ class Square:
     def __init__(self, size=0):
         # Initialize private attribute
         self.__size = size
-    
-    @property # property to retrieve size
+
+    @property  # property to retrieve size
     def size(self):
         return self.__size
 
     @size.setter    # Setter method for size
-    def size(self,value):
+    def size(self, value):
         # Check if value is an integer
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
