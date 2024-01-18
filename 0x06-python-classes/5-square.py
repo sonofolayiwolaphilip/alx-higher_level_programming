@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
 """
-create a class named Square that define a square by private instance attribute: size
+create a class named Square that define a square
 and a Public instance method
 that returns the current square area
 Methods Getter and Setter properties for size.
-property def size(self): to retrieve it 
+property def size(self): to retrieve it
 property setter def size(self, value): to set it:
 Method my_print prints the square using "#".
 """
@@ -43,7 +43,7 @@ class Square:
         Returns: area
         """
         return (self.__size ** 2)
-    
+
     def my_print(self):
         if self.__size == 0:
             print()
